@@ -1,0 +1,32 @@
+@use 'common' as c;
+
+#Financiacion{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+.financiacion{
+    background-color: c.$cuartocolor;
+    color: c.$primercolor;
+    text-shadow: 5px 5px 10px black;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 5px solid c.$segundocolor;
+    padding: 12px 50px;
+    box-shadow: 5px 5px 15px black;
+}
+input{
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.boton-js{
+    width: 100px;
+    color: black;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px black;
+    background-color: c.$primercolor;
+    border: 2px solid c.$segundocolor;
+}

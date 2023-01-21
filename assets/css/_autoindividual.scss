@@ -1,0 +1,30 @@
+@use '_common' as c;
+
+#auto{
+    text-align: center;
+    list-style: none;
+}
+.auto__individual{
+    color: c.$primercolor;
+    margin-top: 1px;
+    width: 90%;
+    margin-bottom: 15px;
+    background-color: c.$menucolor;
+    display: inline-block;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 0px 0px 15px 15px;
+    text-shadow: 5px 5px 10px black;
+}
+.auto__individual li{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.auto__slider{
+    width: 70%;
+    border-radius: 10px;
+    border: solid 3px c.$segundocolor;
+    box-shadow: 8px 5px 10px black;
+}
+
+

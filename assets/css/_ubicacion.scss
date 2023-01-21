@@ -1,0 +1,58 @@
+@use '_common' as c;
+
+#ubicacion{
+    display: flex;
+    flex-direction: column;
+}
+.mapa{
+    margin-left: 5%;
+    margin-top: 10px;
+}
+.locacion{
+    width: 95%;
+    border: 5px solid c.$segundocolor;
+}
+.ubi{
+    color: c.$primercolor;
+    background-color: c.$cuartocolor;
+    border: 3px solid c.$segundocolor;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+    padding: 5%;
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+}
+.ubi h2{
+    text-decoration: underline;
+}
+@media only screen and (min-width: 1280px){
+    #ubicacion{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .ubi{
+        padding: 40px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 140px;
+        width: 50%;
+        margin-right: 40%;
+    }
+    .text{
+        margin-top: 2%;
+        text-shadow: 5px 5px 10px black;
+        font-weight: bold;
+    }
+    .mapa{
+        position: relative;
+        margin-top: 100px;
+        margin-left: 40%;
+    }
+    .locacion{
+        width: 90%;
+        height: 120%;
+    }
+}

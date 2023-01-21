@@ -1,0 +1,13 @@
+@use '_common' as c;
+
+footer{
+    text-align: center;
+    color: c.$primercolor;
+    background-color:c.$tercercolor;
+}
+.foot{
+    margin-top: 5%;
+}
+.footer__ubicacion{
+    margin-top: 10%;
+}

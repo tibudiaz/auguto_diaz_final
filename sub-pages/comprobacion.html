@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="agencia de automotores usados y 0km.">
+    <meta name="keywords" content="automotores usados, 0km, financiacion, tu primer auto">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Piccirilli Automotores</title>
+    <link rel="shortcut icon" href="../assets/img/logo2.png">
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../assets/img/banner.png" alt="portada"></a>
+    </header>
+    <nav class="navbar">
+        <a href="../index.html" class="logo"><img class="logo__img" src="../assets/img/logo2.png" alt="Automoviles Usados"></a>
+        <input type="checkbox" id="toggler">
+        <label for="toggler"><i class="ri-menu-line ri-3x"></i></label>
+        <div class="menu">
+            <ul class="list">
+                <li><a href="../sub-pages/Contacto.html">Contacto</a></li>
+                <li><a href="../sub-pages/comprobacion.html">Financiacion</a></li>
+                <li><a href="../sub-pages/Nosotros.html">Nosotros</a></li>
+                <li><a href="../sub-pages/Nuestraubicacion.html">Nuestra Ubicacion</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section>
+        <h1>Financiacion</h1>
+    </section>
+    <section id="Financiacion">
+        <form class="financiacion">
+            Comprueba que no eres un robot: Cuantas ruedas tiene un auto?<br>
+            <input type="text" id="robot1">
+            <input type="button" class="boton-js" value="Calcular" onclick="robot()">
+            <br>
+            <div>
+                Respuesta: <output id="incorrecto"></output>
+                </div>
+        </form>
+    </section>
+    <section>
+        <div class="whatsapp-float">
+            <a href="https://wa.me/+5493584224464" target="_blank">
+                <img src="../assets/img/wsp.png" alt="WhatsApp">
+            </a>
+        </div>
+    </section>   
+    <script src="../assets/js/financiacion.js"></script>
+    <footer class="footer__ubicacion">
+        <p> Creado por Augusto Diaz todos los derechos reservados. Para Coderhouse.</p>
+    </footer>
+</body>
+</html>
